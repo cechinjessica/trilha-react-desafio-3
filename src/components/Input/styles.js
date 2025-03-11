@@ -8,18 +8,23 @@ export const InputContainer = styled.div`
 
     display:flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
 `
 
 export const IconContainer = styled.div`
     margin-right: 10px;
+    color: #8647AD;
 `
 
 export const InputText = styled.input`
     background-color: transparent;
-    color: #FFFFFF;
+    color: #FFFFFF !important; 
     flex:1;
     border: 0;
-    height: 30px;
-    
+    /* height: 30px; */
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
 `
